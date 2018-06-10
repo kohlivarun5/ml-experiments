@@ -17,6 +17,7 @@ labels = [
     ["US0003M","US0006M","US0012M","MXNI"]
 ]
 
+# http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html#sklearn.feature_extraction.DictVectorizer
 def toIndexed(data,labels,indexsOfTarget,featureCols=None):
     X=[]
     Y = []
