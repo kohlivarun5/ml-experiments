@@ -6,6 +6,8 @@ data = [
     ["USD",6,"M","Semi-Annual","US0006M"],
     ["USD",12,"M","Annual","US0012M"],
     ["MXN",28,"D","28Days","MXNI"],
+    ["EUR",6,"M","Semi-Annual","EUR0006M"],
+    ["EUR",3,"M","Quarterly","EUR0003M"],
     ["USD",6,"M","Semi-Annual","US0003M"],
 ]
 
@@ -14,7 +16,7 @@ labels = [
     [3,6,12,28],
     ["M","D"],
     ["Quarterly","Semi-Annual","Annual","28Days"],
-    ["US0003M","US0006M","US0012M","MXNI"]
+    ["US0003M","US0006M","US0012M","MXNI","EUR0003M","EUR0006M"]
 ]
 
 # http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.DictVectorizer.html#sklearn.feature_extraction.DictVectorizer
